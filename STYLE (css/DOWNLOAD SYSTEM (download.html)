@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Download</title>
+</head>
+<body>
+
+<h2>Your download will start...</h2>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const file = params.get("file");
+const type = params.get("type");
+
+let path = "";
+
+if(type === "image"){
+  path = "uploads/images/" + file;
+}
+if(type === "video"){
+  path = "uploads/videos/" + file;
+}
+
+const a = document.createElement("a");
+a.href = path;
+a.download = file;
+document.body.appendChild(a);
+a.click();
+</script>
+
+</body>
+</html>
