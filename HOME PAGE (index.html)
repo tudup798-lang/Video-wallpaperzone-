@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wallpaper Zone</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Anime Wallpaper Zone</h1>
+<p>Free HD Image & Video Wallpapers</p>
+
+<div class="card">
+  <img src="uploads/images/anime1.jpg" alt="Wallpaper">
+  <a href="download.html?file=anime1.jpg&type=image">
+    <button>Download Image</button>
+  </a>
+</div>
+
+<div class="card">
+  <video src="uploads/videos/anime1.mp4" muted autoplay loop></video>
+  <a href="download.html?file=anime1.mp4&type=video">
+    <button>Download Video</button>
+  </a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
