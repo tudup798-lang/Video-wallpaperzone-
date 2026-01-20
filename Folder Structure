@@ -1,0 +1,16 @@
+wallpaperzone/
+│
+├── index.html
+├── download.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── main.js
+│
+├── uploads/
+│   ├── images/
+│   │   └── anime1.jpg
+│   └── videos/
+│       └── anime1.mp4
