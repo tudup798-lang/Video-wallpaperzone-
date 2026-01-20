@@ -1,0 +1,20 @@
+wallpaperzone/
+│
+├── index.html          (Home page)
+├── upload.html         (Admin upload page)
+├── download.html       (Download page)
+│
+├── css/
+│   └── style.css       (Design & style)
+│
+├── js/
+│   └── main.js         (Button, download logic)
+│
+├── uploads/
+│   ├── images/         (Image wallpapers)
+│   └── videos/         (Video wallpapers)
+│
+├── assets/
+│   └── logo.png
+│
+└── README.txt          (Notes / steps)
