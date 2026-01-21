@@ -1,7 +1,7 @@
 ---
 name: Custom issue template
 about: Describe this issue template's purpose here.
-title: "(Upload Page Design)"
+title: "(Home Page Template)"
 labels: bug, documentation, duplicate, enhancement, good first issue, help wanted,
   invalid, question, wontfix
 assignees: tudup798-lang
@@ -9,23 +9,42 @@ assignees: tudup798-lang
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Upload Wallpaper</title>
+  <meta charset="UTF-8">
+  <title>Anime Wallpaper Zone</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>Upload Wallpaper / Video</h1>
+  <h1>Anime Wallpaper Zone</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="wallpapers.html">Wallpapers</a>
+    <a href="upload.html">Upload</a>
+  </nav>
 </header>
 
 <section class="hero">
-  <form>
-    <input type="file"><br><br>
-    <button>Upload</button>
-  </form>
+  <h2>Free Anime Wallpapers & Videos</h2>
+  <p>Download high quality anime wallpapers & video wallpapers for free.</p>
 </section>
+
+<section class="gallery">
+  <div class="card">
+    <img src="assets/images/sample.jpg" alt="Wallpaper">
+    <a href="#">Download</a>
+  </div>
+  <div class="card">
+    <img src="assets/images/sample.jpg" alt="Wallpaper">
+    <a href="#">Download</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Anime Wallpaper Zone</p>
+</footer>
 
 </body>
 </html>
